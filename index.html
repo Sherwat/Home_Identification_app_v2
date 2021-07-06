@@ -1,0 +1,43 @@
+<html>
+<head>
+
+	<title> Home Object Detection</title>
+  <link rel="icon" href="logo.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="background.png">
+  <center>
+    <h1 class="btn btn-info heading">Home Object Detection</h1>
+
+    <h3 id="status" class="btn btn-danger">Click on button to enter room</h3>
+ 
+    <div id="room_buttons">
+      <br><br><br><br>
+      <button id="bedroom_button" onclick="redirect_bedroom();">Bedroom --></button>
+      <br><br><br><br>
+      <button id="tv_room_button" onclick="redirect_tv_room();">TV Room --></button>
+      <br><br><br><br>
+      <button id="drawing_room_button" onclick="redirect_drawing_room();">Drawing Room --></button>
+      <br><br><br><br>
+      <button id="dining_room_button" onclick="redirect_dining_room();">Dining Room --></button>
+      <br><br><br><br>
+      <button id="kitchen_button" onclick="redirect_kitchen();">Kitchen --></button>
+      <br><br><br><br>
+      <button id="bathroom_button" onclick="redirect_bathroom();">Bathroom --></button>
+    </div>
+  </center>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
